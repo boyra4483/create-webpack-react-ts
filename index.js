@@ -8,13 +8,13 @@ async function main() {
 
   if (!projectName) {
     console.error("❌ Please specify a project name:");
-    console.log("   npm create webpack-react-ts@latest my-app");
+    console.log("   npm create webpack-react-ts@latest your-app-name");
     process.exit(1);
   }
 
   console.log(`🚀 Creating a new project: ${projectName}`);
 
-  const emitter = degit("meni-opium/webpack-react-ts-template", {
+  const emitter = degit("boyra4483/webpack-react-ts", {
     cache: false,
     force: true,
     verbose: true,

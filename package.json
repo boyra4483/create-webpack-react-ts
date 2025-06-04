@@ -2,7 +2,7 @@
   "name": "create-webpack-react-ts",
   "version": "1.0.0",
   "bin": {
-    "create-webpack-react-ts": "./index.js"
+    "create-webpack-react-ts": "index.js"
   },
   "description": "Create a new React + TypeScript project powered by Webpack, with support for CSS modules",
   "keywords": [
