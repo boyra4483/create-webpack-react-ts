@@ -1,0 +1,43 @@
+{
+  "name": "create-webpack-react-ts",
+  "version": "1.0.0",
+  "bin": {
+    "create-webpack-react-ts": "./index.js"
+  },
+  "description": "Create a new React + TypeScript project powered by Webpack, with support for CSS modules",
+  "keywords": [
+    "cli",
+    "scaffold",
+    "starter",
+    "template",
+    "webpack",
+    "react",
+    "typescript",
+    "create",
+    "css-modules",
+    "boilerplate",
+    "project-generator"
+  ],
+  "homepage": "https://github.com/boyra4483/create-webpack-react-ts#readme",
+  "bugs": {
+    "url": "https://github.com/boyra4483/create-webpack-react-ts/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boyra4483/create-webpack-react-ts.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "boyra",
+    "email": "b9892213@gmail.com",
+    "url": "https://github.com/boyra4483"
+  },
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "degit": "^2.8.4"
+  }
+}
